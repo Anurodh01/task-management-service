@@ -1,5 +1,12 @@
 ## Project setup
 
+### Clone the project
+
+```bash
+$ git clone https://github.com/Anurodh01/task-management-service
+$ cd task-management-service
+```
+
 #### In Order to download all dependencies we need to run command
 
 ```bash
