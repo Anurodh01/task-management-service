@@ -40,6 +40,25 @@ mysql> CREATE TABLE `tasks` (
 
 #### Already configured default config can be used if running on local.
 
+```bash
+#Database configurations
+
+DB_HOST=<DB_HOST>
+DB_PORT=<DB_PORT>
+DB_USERNAME=<DB_USERNAME>
+DB_PASSWORD=<DB_PASSWORD>
+DB_DATABASE=<DATABASE_NAME>
+
+#RabbitMQ configurations
+RABBITMQ_URL=<RABBITMQ_URL>                #'amqp://localhost:5672'
+RABBITMQ_QUEUE=<RABBITMQ_QUEUE>            #'task_notifications'
+
+#Reddis Configuratins
+REDIS_HOST=<REDIS_HOST>        #localhost
+REDIS_PORT=<REDIS_PORT>         #6379
+REDIS_CACHE_TTL=<REDIS_TTL>     #60
+```
+
 ## Running the Application
 
 ### Running with PM2
